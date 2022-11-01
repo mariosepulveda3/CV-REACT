@@ -1,0 +1,41 @@
+.app {
+  height: 100%;
+  display: grid;
+  grid-template-areas: "nav nav"
+                       "sidebar main"
+                       "footer footer";
+  grid-template-columns: 220px 1fr;
+  grid-template-rows: 80px 1fr 40px;
+
+  nav {
+    grid-area: nav;
+    background-color: red;
+  }
+
+  aside {
+    grid-area: sidebar;
+    background-color: blue;
+  }
+
+  main {
+    grid-area: main;
+    background-color: aqua;
+    overflow-y: scroll;
+
+    p {
+      height: 40px;
+      margin-bottom: 8px;
+      background-color: bisque;
+
+      &::before {
+        content: "asdad"
+      }
+    }
+
+  }
+
+  footer {
+    grid-area: footer;
+    background-color: green;
+  }
+}
