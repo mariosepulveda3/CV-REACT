@@ -7,8 +7,21 @@
 }
 
 .box {
+    display: flex;
+    flex-direction: column;
     padding-block: 10px;
     display: flex;
     justify-content: center;
+    background-color: rgba(250, 239, 216, 0.327);
+}
 
+h4 {
+    padding-left: 30px;
+    padding-bottom: 10px;        
+}
+
+p {
+    font-size: 13px;
+    padding-left: 30px;
+    padding-block: 5px;
 }

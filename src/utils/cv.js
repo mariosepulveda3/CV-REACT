@@ -6,7 +6,7 @@ export const CV = {
     city: "Ripollet, Barcelona",
     email: "mariosepulveda3@gmail.com",
     birthDate: "19/03/1995",
-    phone: "(+34) 666",
+    phone: "(+34) 666 777 888",
     image: "",
     gitHub: "https://github.com/mariosepulveda3",
     aboutMe: [
@@ -20,7 +20,7 @@ export const CV = {
         info: "Siempre con muy buena disposición para aprender cosas nuevas y trabajar en equipo.",
       },
       {
-        info: "Y con una motivación inmesa, de seguir desarrollándome de manera profesional, cada día más",
+        info: "Y con una motivación inmesa, de seguir desarrollándome de manera profesional, cada día más.",
       },
     ],
   },
@@ -76,25 +76,25 @@ export const CV = {
       name: "Vendedor en Panadería",
       date: " 10/08/2015 – 09/09/2016",
       where: "Santagloria, Coffee & Bakery, Barcelona",
-      description: "Vendedor y hornero de productos de panadería y pastelería",
+      description: "Vendedor y hornero de productos de panadería y pastelería.",
     },
     {
       name: "Dependiente en Tienda",
       date: " 08/09/2014 – 26/06/2015",
       where: "Toys'R'us, San Sebastián",
-      description: "Encargado de gestionar el stock de productos, tanto en tienda como en almacén y asistencia al cliente",
+      description: "Encargado de gestionar el stock de productos, tanto en tienda como en almacén y asistencia al cliente.",
     },
     {
       name: "Captador de Socios",
       date: " 19/01/2015 – 06/06/2015 ",
       where: "ONG ACNUR, San Sebastián",
-      description: "Recolectar socios para que puedan ayudar económicamente a los proyectos de la fundación",
+      description: "Recolectar socios para que puedan ayudar económicamente a los proyectos de la fundación.",
     },
     {
       name: "Agente Comercial",
       date: " 17/10/2014 – 14/01/2015 ",
       where: "DKV Seguros, San Sebastián",
-      description: "Fidelizar y ofrecer los servicios de la aseguradora a posibles nuevos clientes",
+      description: "Fidelizar y ofrecer los servicios de la aseguradora a posibles nuevos clientes.",
     },
     {
       name: "Azafato de Eventos",
@@ -135,8 +135,8 @@ export const CV = {
   habilities: [
     "Buena comunicación",
     "Gran poder de adaptación",
-    "Creativo, con una gran imaginación",
-    "Paciente y mente sólida",
+    "Creativo y con una gran imaginación",
+    "Paciente y con la mente sólida",
     "Buena lógica de gestión",
     "Gran poder de planificación",
     "Motivación por adquirir nuevos conocimientos"
