@@ -141,6 +141,11 @@ export const CV = {
     "Gran poder de planificación",
     "Motivación por adquirir nuevos conocimientos"
   ],
+  hobbies: [
+    "La mayor pasión que tengo, es viajar. Me encanta investigar cada rincón de este mundo y conocer nuevas culturas",
+    "Siempre he sido amante del deporte. Toda mi vida jugué a Basketball, pero ahora practico muchos otros",
+    "etc..",
+  ]
 //   volunteer: [
 //     {
 //       name: "",

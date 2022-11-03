@@ -1,13 +1,15 @@
+import './About.scss';
+
 const About = ({metadata}) => {
 
   return (
 
-    <div>
-        <h1>About</h1>
+    <div className='about'>
+        <h2 className='h2'>Sobre mi</h2>
 
         {metadata.map(element => {
             return (
-                <h4 key={JSON.stringify(element.info)}>{element.info}</h4>
+                <p className='p' key={JSON.stringify(element.info)}>{element.info}</p>
             )
         })}
     </div>

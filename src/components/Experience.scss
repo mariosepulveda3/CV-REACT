@@ -1,0 +1,32 @@
+.experience {
+    padding-block: 30px;
+}
+
+.h2 {
+    padding-bottom: 20px;
+}
+
+.div {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(127, 255, 212, 0.327);
+    margin-block: 10px;
+    
+    h3 {
+        padding-block: 10px;
+        color: rgb(28, 28, 28);
+    }
+
+    p {
+        padding-block: 5px;
+    }
+
+    h5 {
+        padding-block: 5px;
+    }
+
+    h6 {
+        padding-block: 5px;
+    }
+}

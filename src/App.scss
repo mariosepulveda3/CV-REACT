@@ -8,34 +8,42 @@
   grid-template-rows: 80px 1fr 40px;
 
   nav {
+    display: flex;
+    justify-content: space-evenly;
     grid-area: nav;
-    background-color: red;
+    background-color: rgba(145, 241, 236, 0.541);
+    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
   }
 
   aside {
     grid-area: sidebar;
-    background-color: blue;
+    background-color: rgba(192, 238, 251, 0.405);
+    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
+  }
+
+  img {
+    height: 70%;
+    width: 100%;
   }
 
   main {
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
     grid-area: main;
-    background-color: aqua;
+    background-color: #00a38d;
+    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
     overflow-y: scroll;
-
-    p {
-      height: 40px;
-      margin-bottom: 8px;
-      background-color: bisque;
-
-      &::before {
-        content: "asdad"
-      }
-    }
-
   }
 
   footer {
     grid-area: footer;
-    background-color: green;
   }
 }
