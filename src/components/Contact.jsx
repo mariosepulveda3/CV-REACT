@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Contact.scss";
 
 const Contact = ({ info }) => {
-  const [showContact, setShowContact] = useState(true);
+  const [showContact, setShowContact] = useState(false);
   return (
     <div className="contact">
       <button onClick={() => setShowContact(!showContact)}>Contacto</button>

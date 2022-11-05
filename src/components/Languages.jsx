@@ -4,6 +4,7 @@ const Languages = ({ languages }) => {
   return (
     <div className="languages">
       <h2>Idiomas</h2>
+      <div className="idiomas">
       {languages.map((languages, index) => (
         <div className="div" key={index}>
           <h4>{languages.language}</h4>
@@ -11,6 +12,7 @@ const Languages = ({ languages }) => {
           <p>Hablado: {languages.splevel}</p>
         </div>
       ))}
+    </div>
     </div>
   );
 };
