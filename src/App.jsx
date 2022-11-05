@@ -1,5 +1,6 @@
 import "./App.scss";
 import { CV } from "./utils/cv";
+import Contact from "./components/Contact";
 import About from "./components/About";
 import Hero from "./components/Hero";
 import Education from './components/Education';
@@ -8,7 +9,6 @@ import Habilities from './components/Habilities';
 import Languages from './components/Languages';
 import mario from './assets/img/imgny.jpg';
 import React from "react";
-import Contact from "./components/Contact";
 // import { info } from "sass";
 // import Fotter from "./components/Fotter";
 
@@ -20,7 +20,7 @@ const App = () => {
   return (
     <div className="app">
       <nav>
-        <a href="https://github.com/mariosepulveda3" target="blank">Mi GitHub</a>
+        <a href="https://github.com/mariosepulveda3" target="blank">My GitHub</a>
         <a href="https://www.linkedin.com/in/mario-sep%C3%BAlveda-donoso-1aa959142" target="blank">LinkedIn</a>
         <a href="d">Projects</a>
       </nav>

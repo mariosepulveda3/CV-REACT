@@ -5,7 +5,7 @@ const Contact = ({ info }) => {
   const [showContact, setShowContact] = useState(false);
   return (
     <div className="contact">
-      <button onClick={() => setShowContact(!showContact)}>Contacto</button>
+      <button onClick={() => setShowContact(!showContact)}>Contact</button>
       {showContact ? (
         <div className="container">
           <p>{info.email}</p>

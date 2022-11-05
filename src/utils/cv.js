@@ -2,7 +2,7 @@ export const CV = {
   hero: {
     name: "Mario",
     lastName: "Sepúlveda",
-    fullName: "Mario Sepúlveda",
+    fullName: "MARIO SEPÚLVEDA",
     city: "Ripollet, Barcelona",
     email: "mariosepulveda3@gmail.com",
     birthDate: "19/03/1995",
@@ -11,16 +11,16 @@ export const CV = {
     gitHub: "https://github.com/mariosepulveda3",
     aboutMe: [
       {
-        info: "A la hora de trabajar soy una persona responsable, puntual, dinámica, proactiva, creativa y con buena organización de trabajo.",
+        info: "When it comes to work, I am a responsible, punctual, dynamic, proactive, creative and well organized person.",
       },
       {
-        info: "Buenas relaciones interpersonales.",
+        info: "Good interpersonal relations.",
       },
       {
-        info: "Siempre con muy buena disposición para aprender cosas nuevas y trabajar en equipo.",
+        info: "Always willing to learn new things and work in a team.",
       },
       {
-        info: "Y con una motivación inmesa, de seguir desarrollándome de manera profesional, cada día más.",
+        info: "And with an immense motivation to continue developing myself professionally, more and more every day.",
       },
     ],
   },
@@ -31,127 +31,126 @@ export const CV = {
       where: "Upgrade Hub, Madrid - ",
     },
     {
-      name: "Técnico Superior en Comercio Internacional",
+      name: "International Trade Technician",
       date: "2015",
       where: "I.E.S Jaume Mimó, Barcelona - ",
     },
     {
-      name: "Técnico Medio en Comercio",
+      name: "Medium Trade Technician",
       date: "2013",
       where: "I.E.S Jaume Mimó, Barcelona - ",
     },
     {
-      name: "Educación Secundaria",
+      name: "High School Education",
       date: "2012",
       where: "I.E.S Lluís Companys, Barcelona - ",
     },
   ],
   experience: [
     {
-      name: "Encargado de Sección",
+      name: "Section Manager",
       date: "02/03/2020 – 09/09/2022",
       where: "Europastry S.A, Barcelona",
       description:
-        "Responsable del proceso de producción de productos alimenticios.",
+        "Responsible for the production process of food products.",
     },
     {
-      name: "Operario",
+      name: "Operator",
       date: "20/08/2018 – 28/02/2020",
       where: "Europastry S.A, Barcelona",
-      description: "Operario en sección de producción y envasado de alimentos.",
+      description: "Operator in food production and packaging section.",
     },
     {
-      name: "Camarero de Sala",
+      name: "Waiter",
       date: " 08/05/2017 – 09/10/2017",
       where: "Hotel San Remo, Ibiza",
       description:
-        "Encargado de mantener organizado el espacio de trabajo, y atender a los clientes.",
+        "Responsible for keeping the work space organized and attending to customers.",
     },
     {
-      name: "Supervisor en Panaderia",
+      name: "Bakery Supervisor",
       date: "12/09/2016 – 28/04/2017",
       where: "Santagloria, Coffee & Bakery, Barcelona",
       description:
-        "Supervisor del stock, pedidos, cuentas y personal de la tienda asignada.",
+        "Supervisor of stock, orders, accounts and assigned store personnel.",
     },
     {
-      name: "Vendedor en Panadería",
+      name: "Bakery Salesperson",
       date: " 10/08/2015 – 09/09/2016",
       where: "Santagloria, Coffee & Bakery, Barcelona",
-      description: "Vendedor y hornero de productos de panadería y pastelería.",
+      description: "Salesperson and baker of bakery and pastry products.",
     },
     {
-      name: "Dependiente en Tienda",
+      name: "Store Clerk",
       date: " 08/09/2014 – 26/06/2015",
       where: "Toys'R'us, San Sebastián",
       description:
-        "Gestión del stock de productos, tanto en tienda como en almacén.",
+        "Management of product stock, both in the store and in the warehouse.",
     },
     {
-      name: "Captador de Socios",
+      name: "Membership Recruiter",
       date: " 19/01/2015 – 06/06/2015 ",
       where: "ONG ACNUR, San Sebastián",
       description:
-        "Recolectar socios para ayudar a los proyectos de la fundación.",
+        "Collect partners to help the foundation's projects.",
     },
     {
-      name: "Agente Comercial",
+      name: "Commercial Agent",
       date: " 17/10/2014 – 14/01/2015 ",
-      where: "DKV Seguros, San Sebastián",
+      where: "DKV Insurance, San Sebastián",
       description:
-        "Fidelizar clientes a los servicios de la aseguradora.",
+        "To build customer loyalty to the insurer's services.",
     },
     {
-      name: "Azafato de Eventos",
+      name: "Event Hostess",
       date: " 08/09/2014 – 26/06/2015 ",
-      where: "Palacio de Congresos, San Sebastián",
+      where: "Congress Center, San Sebastián",
       description:
-        "Garantizar de manera excepcional las necesidades de los clientes.",
+        "Exceptionally guarantee customer needs.",
     },
     {
-      name: "Camarero en Coctelería",
+      name: "Bartender in Cocktail Bar",
       date: " 23/09/2013 – 20/06/2014",
       where: "Amy's, Barcelona",
-      description: "Camarero y contelero del bar y cafetería.",
+      description: "Bar and cafeteria waiter and waitress.",
     },
     {
-      name: "Dependiente en Tienda",
+      name: "Store Clerk",
       date: " 29/10/2012 – 25/01/2013",
       where: "Fotoprix, Barcelona",
       description:
-        "Dependiente en tienda de revelado y accesorios de fotografía.",
+        "Sales clerk in a photo developing and photography accessories store.",
     },
   ],
   languages: [
     {
-      language: "Español",
+      language: "Spanish",
       wrlevel: "Nativo",
       splevel: "Nativo",
     },
     {
-      language: "Inglés",
+      language: "English",
       wrlevel: "Medio",
       splevel: "Alto",
     },
     {
-      language: "Catalán",
+      language: "Catalan",
       wrlevel: "Nativo",
       splevel: "Nativo",
     },
   ],
   habilities: [
-    "Buena comunicación",
-    "Gran poder de adaptación",
-    "Creativo y con una gran imaginación",
-    "Paciente y con la mente sólida",
-    "Buena lógica de gestión",
-    "Gran poder de planificación",
-    "Motivación por adquirir nuevos conocimientos",
+    "Good communication",
+    "Great power of adaptation",
+    "Creative and with a great imagination",
+    "Patient and sound minded", "Good management logic",
+    "Good management logic",
+    "Great planning power",
+    "Motivation to acquire new knowledge",
   ],
   hobbies: [
-    "La mayor pasión que tengo, es viajar. Me encanta investigar cada rincón de este mundo y conocer nuevas culturas",
-    "Siempre he sido amante del deporte. Toda mi vida jugué a Basketball, pero ahora practico muchos otros",
-    "etc..",
+    "The biggest passion I have, is traveling. I love investigating every corner of this world and getting to know new cultures.",
+    "I have always been a sports lover. All my life I played Basketball, but now I practice many others"
   ],
   //   volunteer: [
   //     {

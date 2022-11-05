@@ -12,8 +12,8 @@ const Habilities = ({habilities}) => {
 
   return (
     <div className='habilities'>
-        <h2>Habilidades</h2>
-        <button onClick={changeHab}>Cambia de habilidad</button>
+        <h2>Skills</h2>
+        <button onClick={changeHab}>changeSkill</button>
         <p>{hability}</p>
     </div>
   )

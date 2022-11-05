@@ -4,8 +4,7 @@
   height: 100%;
   display: grid;
   grid-template-areas: "nav nav"
-                       "sidebar main"
-                       "footer footer";
+                       "sidebar main";
   grid-template-columns: 350px 1fr;
   grid-template-rows: 100px 1fr 40px;
   font-family: 'Raleway', sans-serif;
@@ -14,45 +13,41 @@
     display: flex;
     justify-content: space-evenly;
     grid-area: nav;
-    background-color: #a66100ac;
+    background-color: #7053c884;
     background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
-    border-bottom: solid rgba(255, 255, 255, 0.427);
+    border-bottom: solid rgba(40, 43, 212, 0.476);
   }
 
   a {
+    color: black;
+    font-weight: 700;
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: black;
   }
 
   aside {
+    grid-area: sidebar;
     padding: 20px;
     text-align: center;
-    grid-area: sidebar;
-    background-color: #a6610066;
+    background-color: #a8b8de77;
     background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
   }
 
   img {
     height: 300px;
     width: 250px;
-    border: solid rgba(245, 245, 245, 0.4);
+    border: solid rgba(40, 43, 212, 0.476);
     border-radius: 10px;
   }
 
   main {
-    padding: 20px 50px 80px 15px;
+    grid-area: main;
+    padding: 20px 25px 80px 25px;
     display: flex;
     flex-direction: column;
-    grid-area: main;
-    background-color: #a6610066;
+    background-color: #a8b8de77;
     background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
     overflow-y: scroll;
-  }
-
-  footer {
-    grid-area: footer;
-    background-color: black;
   }
 }

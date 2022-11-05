@@ -1,3 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lekton:wght@700&display=swap');
+
 .hero {
-    padding-block: 50px;
+    padding-block: 60px;
 }
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    line-height: 2;
+    white-space: nowrap;
+    font-family: 'Lekton', sans-serif;
+    margin-left: 10px;
+  }
+
+  .name {
+    // background-color: #f0f0f06d;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    overflow: hidden;
+    animation: openclose 10s ease-in-out infinite;
+  }
+
+  @keyframes openclose {
+    0% {
+      width: 0;
+    }
+    25% {
+      width: 0;
+    }
+    50% {
+      width: 380px;
+    }
+    75% {
+    
+      width: 380px;
+    }
+    100% {
+      width: 0;
+    }
+  }
