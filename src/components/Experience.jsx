@@ -3,7 +3,7 @@ import './Experience.scss';
 const Experience = ({ experience }) => {
   return (
     <div className='experience'>
-      <h2 className='h2'>Experiencia</h2>
+      <h2>Experiencia</h2>
       {experience.map((experience, index) => (
         <div className='div' key={index}>
           <h3>{experience.name}</h3>

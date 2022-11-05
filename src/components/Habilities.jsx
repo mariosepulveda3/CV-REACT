@@ -12,9 +12,9 @@ const Habilities = ({habilities}) => {
 
   return (
     <div className='habilities'>
-        <h2 className='h2'>Habilidades</h2>
+        <h2>Habilidades</h2>
         <button onClick={changeHab}>Cambia de habilidad</button>
-        <p className='p'>{hability}</p>
+        <p>{hability}</p>
     </div>
   )
 }

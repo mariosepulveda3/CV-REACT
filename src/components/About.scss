@@ -1,12 +1,18 @@
 .about {
+    text-align: center;
     padding-block: 30px;
-}
 
-.h2 {
-    padding-bottom: 30px;
-}
+    h2 {
+        padding-bottom: 30px;
+    }
 
-.p {
-    background-color: rgba(245, 245, 245, 0.514);
-    padding-block: 20px;
+    div {
+        border-radius: 10px;
+        background-color: rgba(245, 245, 245, 0.514);
+
+        p {
+            padding: 30px;
+            padding-block: 20px;
+        }
+    }
 }

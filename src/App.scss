@@ -6,8 +6,8 @@
   grid-template-areas: "nav nav"
                        "sidebar main"
                        "footer footer";
-  grid-template-columns: 220px 1fr;
-  grid-template-rows: 80px 1fr 40px;
+  grid-template-columns: 350px 1fr;
+  grid-template-rows: 100px 1fr 40px;
   font-family: 'Raleway', sans-serif;
 
   nav {
@@ -27,16 +27,18 @@
   }
 
   aside {
+    padding: 20px;
+    text-align: center;
     grid-area: sidebar;
     background-color: #a6610066;
     background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
   }
 
   img {
-    margin: 15px;
-    height: 45%;
-    width: 85%;
+    height: 300px;
+    width: 250px;
     border: solid rgba(245, 245, 245, 0.4);
+    border-radius: 10px;
   }
 
   main {
@@ -47,10 +49,10 @@
     background-color: #a6610066;
     background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
     overflow-y: scroll;
-    border-left: whitesmoke;
   }
 
   footer {
     grid-area: footer;
+    background-color: black;
   }
 }

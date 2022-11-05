@@ -5,7 +5,7 @@ const Hero = ({info}) => {
   return (
     
     <div className='hero'>
-        <h1 className='h1'>{info.fullName}</h1>
+        <h1>{info.fullName}</h1>
         {/* <h3>{info.email}</h3>
         <h3>{info.birthDate}</h3>
         <h3>{info.city}</h3>
