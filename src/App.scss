@@ -4,9 +4,10 @@
   height: 100%;
   display: grid;
   grid-template-areas: "nav nav"
-                       "sidebar main";
+                       "sidebar main"
+                       "footer footer";
   grid-template-columns: 350px 1fr;
-  grid-template-rows: 100px 1fr 40px;
+  grid-template-rows: 100px 1fr 10px;
   font-family: 'Raleway', sans-serif;
 
   nav {
@@ -49,5 +50,10 @@
     background-color: #a8b8de77;
     background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
     overflow-y: scroll;
+  }
+
+  footer {
+    grid-area: footer;
+    background-color: rgba(25, 35, 177, 0.453);
   }
 }

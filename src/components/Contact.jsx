@@ -10,7 +10,6 @@ const Contact = ({ info }) => {
         <div className="container">
           <p>{info.email}</p>
           <p>{info.phone}</p>
-          <p>{info.city}</p>
         </div>
       ) : (
         <div></div>
