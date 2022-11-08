@@ -15,8 +15,6 @@ import Footer from "./components/Footer";
 const App = () => {
   const { hero, education, languages, habilities, experience } = CV;
 
-  // const [contacts, setContacts] = useState(true);
-
   return (
     <div className="app">
       <nav>
