@@ -11,12 +11,7 @@
   font-family: 'Raleway', sans-serif;
 
   nav {
-    display: flex;
-    justify-content: space-evenly;
     grid-area: nav;
-    background-color: #7053c884;
-    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
-    border-bottom: solid rgba(40, 43, 212, 0.476);
   }
 
   a {
@@ -27,31 +22,12 @@
     text-decoration: none;
   }
 
-  aside {
-    grid-area: sidebar;
-    padding: 20px;
-    text-align: center;
-    background-color: #a8b8de77;
-    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
-  }
-
-  img {
-    height: 300px;
-    width: 250px;
-    border: solid rgba(40, 43, 212, 0.476);
-    border-radius: 10px;
-    &:hover {
-      transform: scale(1.05);
-    }
-  }
-
   main {
     grid-area: main;
     padding: 20px 25px 80px 25px;
     display: flex;
     flex-direction: column;
-    background-color: #a8b8de77;
-    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
+    background-color: #ffffff77;
     overflow-y: scroll;
   }
 
@@ -59,4 +35,44 @@
     grid-area: footer;
     background-color: rgba(25, 35, 177, 0.453);
   }
+}
+
+@media only screen and (max-width:500px) {
+  .app {
+    height: 100%;
+    display: grid;
+    grid-template-areas: "nav nav"
+                         "main"
+                         "footer footer";
+    grid-template-columns: 50px 1fr;
+    grid-template-rows: 100px 1fr 10px;
+    font-family: 'Raleway', sans-serif;
+
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+
+    aside {
+      width: 0;
+      display: none;
+      padding: 0px;
+      margin: 0px;
+    }
+
+    main {
+      padding: 0px;
+      margin: 0px;
+
+      .menu {
+        padding-top: 20px;
+
+        button {
+          font-size: 12px;
+          padding: 2px;
+        }
+      }
+    }
+  }
+
 }
