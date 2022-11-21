@@ -1,0 +1,15 @@
+aside {
+    grid-area: sidebar;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff77;
+  }
+
+  img {
+    height: 300px;
+    width: 250px;
+    border: solid rgba(0, 0, 0, 0.547);
+    &:hover {
+      border: solid purple;
+    }
+  }

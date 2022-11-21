@@ -125,18 +125,18 @@ export const CV = {
   languages: [
     {
       language: "Spanish",
-      wrlevel: "Nativo",
-      splevel: "Nativo",
+      wrlevel: "Native",
+      splevel: "Native",
     },
     {
       language: "English",
-      wrlevel: "Medio",
-      splevel: "Alto",
+      wrlevel: "Medium",
+      splevel: "High",
     },
     {
       language: "Catalan",
-      wrlevel: "Nativo",
-      splevel: "Nativo",
+      wrlevel: "Native",
+      splevel: "Native",
     },
   ],
   habilities: [

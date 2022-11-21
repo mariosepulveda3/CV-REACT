@@ -1,0 +1,30 @@
+.contact {
+    padding: 20px 20px 0px 20px;
+    
+    button {
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        padding: 5px 10px;
+        text-decoration: none;
+        background-color: rgb(255, 255, 255);
+        border-color: rgba(0, 0, 0, 0.476);
+        margin-bottom: 10px;
+        cursor: pointer;
+
+        &:hover{
+            cursor: pointer;
+            transform: scale(1.05);
+            background: rgba(143, 127, 224, 0.446);
+            }
+    }
+
+    .container {
+        padding: 10px 20px;
+        background-color: rgba(137, 67, 243, 0.201);
+        
+        p {
+            padding-block: 5px;
+        }
+    }
+}

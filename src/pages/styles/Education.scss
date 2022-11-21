@@ -1,0 +1,26 @@
+.education {
+    text-align: center;
+    padding-block: 30px;
+
+    h2 {
+        padding-bottom: 20px;
+    }
+}
+
+.box {
+    padding-block: 15px;
+    padding-inline: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(137, 67, 243, 0.201);
+    
+    p {
+        font-size: 13px;
+        padding-left: 5px;
+        padding-block: 5px;
+    }
+
+    div {
+        display: flex;   
+    }
+}
