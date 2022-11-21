@@ -23,4 +23,18 @@
     div {
         display: flex;   
     }
+
+    @media only screen and (max-width:500px) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h4 {
+            text-align: start;
+        }
+
+        p {
+           text-align: end;
+        }
+    }
 }

@@ -9,7 +9,7 @@ const Education = ({ education }) => {
           <div>
             <h4>{education.name}</h4>
           </div>
-          <div>
+          <div className="info">
             <p>{education.where}</p>
             <p>{education.date}</p>
           </div>
