@@ -51,8 +51,7 @@ export const CV = {
       name: "Section Manager",
       date: "02/03/2020 – 09/09/2022",
       where: "Europastry S.A, Barcelona",
-      description:
-        "Responsible for the production process of food products.",
+      description: "Responsible for the production process of food products.",
     },
     {
       name: "Operator",
@@ -91,22 +90,19 @@ export const CV = {
       name: "Membership Recruiter",
       date: " 19/01/2015 – 06/06/2015 ",
       where: "ONG ACNUR, San Sebastián",
-      description:
-        "Collect partners to help the foundation's projects.",
+      description: "Collect partners to help the foundation's projects.",
     },
     {
       name: "Commercial Agent",
       date: " 17/10/2014 – 14/01/2015 ",
       where: "DKV Insurance, San Sebastián",
-      description:
-        "To build customer loyalty to the insurer's services.",
+      description: "To build customer loyalty to the insurer's services.",
     },
     {
       name: "Event Hostess",
       date: " 08/09/2014 – 26/06/2015 ",
       where: "Congress Center, San Sebastián",
-      description:
-        "Exceptionally guarantee customer needs.",
+      description: "Exceptionally guarantee customer needs.",
     },
     {
       name: "Bartender in Cocktail Bar",
@@ -152,7 +148,7 @@ export const CV = {
   ],
   hobbies: [
     "The biggest passion I have, is traveling. I love investigating every corner of this world and getting to know new cultures.",
-    "I have always been a sports lover. All my life I played Basketball, but now I practice many others"
+    "I have always been a sports lover. All my life I played Basketball, but now I practice many others",
   ],
   //   volunteer: [
   //     {

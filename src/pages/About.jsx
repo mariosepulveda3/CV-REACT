@@ -5,14 +5,9 @@ const About = ({ metadata }) => {
     <div className="about">
       <h2>aboutMe</h2>
       <div>
-
-      {metadata.map((element) => {
-        return (
-          
-            <p key={JSON.stringify(element.info)}>{element.info}</p>
-          
-        );
-      })}
+        {metadata.map((element) => {
+          return <p key={JSON.stringify(element.info)}>{element.info}</p>;
+        })}
       </div>
     </div>
   );

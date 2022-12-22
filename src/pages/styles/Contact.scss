@@ -1,30 +1,55 @@
 .contact {
-    padding: 20px 20px 0px 20px;
-    
-    button {
-        font-family: 'Raleway', sans-serif;
-        font-size: 15px;
-        font-weight: 600;
-        padding: 5px 10px;
-        text-decoration: none;
-        background-color: rgb(255, 255, 255);
-        border-color: rgba(0, 0, 0, 0.476);
-        margin-bottom: 10px;
-        cursor: pointer;
+  padding: 20px 20px 0px 20px;
+  @media screen and (max-width: 500px) {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+    height: 100px;
+  }
 
-        &:hover{
-            cursor: pointer;
-            transform: scale(1.05);
-            background: rgba(143, 127, 224, 0.446);
-            }
-    }
+  button {
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border-color: rgba(0, 0, 0, 0.476);
+    margin-bottom: 10px;
+    cursor: pointer;
 
-    .container {
-        padding: 10px 20px;
-        background-color: rgba(137, 67, 243, 0.201);
-        
-        p {
-            padding-block: 5px;
-        }
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.02);
+      background: rgba(143, 127, 224, 0.446);
     }
+    @media screen and (max-width: 500px) {
+      padding: 5px;
+    }
+  }
+
+  .container {
+    padding: 10px 20px;
+    background-color: rgba(137, 67, 243, 0.201);
+    transition: all 0.4s ease-in-out;
+    p {
+      padding-block: 5px;
+    }
+    @media screen and (min-width: 641px) and (max-width: 910px) {
+      // width: 100%;
+
+      p {
+        font-size: 12px;
+      }
+    }
+    @media screen and (max-width: 500px) {
+      padding: 10px;
+      width: 80%;
+      margin: 0 auto;
+
+      p {
+        font-size: 13px;
+      }
+    }
+  }
 }

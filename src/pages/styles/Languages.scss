@@ -1,29 +1,29 @@
 .languages {
-    text-align: center;
-    padding-block: 30px;
+  text-align: center;
+  padding-block: 30px;
 
-    h2 {
-        padding-bottom: 20px;
+  h2 {
+    padding-bottom: 20px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .div {
+    width: 240px;
+    padding: 20px;
+    margin-inline: 5px;
+    background-color: rgba(137, 67, 243, 0.201);
+
+    h4 {
+      padding-bottom: 5px;
     }
 
-    .container {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
+    p {
+      padding-block: 5px;
     }
-
-    .div {
-        width: 240px;
-        padding: 20px;
-        margin-inline: 5px;
-        background-color: rgba(137, 67, 243, 0.201);
-    
-        h4 {
-            padding-bottom: 5px;
-        }
-    
-        p {
-            padding-block: 5px;
-        }
-    }
+  }
 }

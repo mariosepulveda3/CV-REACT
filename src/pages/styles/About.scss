@@ -1,28 +1,26 @@
 .about {
-    padding-block: 30px;
+  padding-block: 30px;
 
-    h2 {
-        padding-bottom: 30px;
+  h2 {
+    padding-bottom: 30px;
+  }
+
+  div {
+    background-color: rgba(137, 67, 243, 0.201);
+
+    p {
+      padding: 30px;
+      padding-block: 20px;
     }
-
-    div {
-        background-color: rgba(137, 67, 243, 0.201);
-
-        p {
-            padding: 30px;
-            padding-block: 20px;
-        }
-    }
+  }
 }
 
-@media only screen and (max-width:500px) {
+@media screen and (min-width: 641px) and (max-width: 910px) {
+  h2 {
+    font-size: 20px;
+  }
 
-    h2 {
-        font-size: 20px;
-    }
-
-    div {
-        font-size: 12px;    
-    }
-
+  div {
+    font-size: 12px;
+  }
 }

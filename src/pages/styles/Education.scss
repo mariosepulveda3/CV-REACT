@@ -1,40 +1,40 @@
 .education {
-    text-align: center;
-    padding-block: 30px;
+  text-align: center;
+  padding-block: 30px;
 
-    h2 {
-        padding-bottom: 20px;
-    }
+  h2 {
+    padding-bottom: 20px;
+  }
 }
 
 .box {
-    padding-block: 15px;
-    padding-inline: 30px;
+  padding-block: 15px;
+  padding-inline: 30px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(137, 67, 243, 0.201);
+
+  p {
+    font-size: 13px;
+    padding-left: 5px;
+    padding-block: 5px;
+  }
+
+  div {
+    display: flex;
+  }
+
+  @media only screen and (max-width: 500px) {
     display: flex;
     justify-content: space-between;
-    background-color: rgba(137, 67, 243, 0.201);
-    
+    align-items: center;
+
+    h4 {
+      text-align: start;
+    }
+
     p {
-        font-size: 13px;
-        padding-left: 5px;
-        padding-block: 5px;
+      text-align: end;
     }
-
-    div {
-        display: flex;   
-    }
-
-    @media only screen and (max-width:500px) {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-        h4 {
-            text-align: start;
-        }
-
-        p {
-           text-align: end;
-        }
-    }
+  }
 }

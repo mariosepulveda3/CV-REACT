@@ -1,11 +1,11 @@
-import './styles/Experience.scss';
+import "./styles/Experience.scss";
 
 const Experience = ({ experience }) => {
   return (
-    <div className='experience'>
+    <div className="experience">
       <h2>Experience</h2>
       {experience.map((experience, index) => (
-        <div className='div' key={index}>
+        <div className="div" key={index}>
           <h3>{experience.name}</h3>
           <p>{experience.description}</p>
           <h5>{experience.where}</h5>

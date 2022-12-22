@@ -8,7 +8,6 @@ import Footer from "./components/Footer";
 import Aside from "./components/Aside";
 
 const App = () => {
-  
   const { hero } = CV;
 
   return (
@@ -17,7 +16,7 @@ const App = () => {
         <Navbar />
       </nav>
       <aside>
-      <Aside/>
+        <Aside />
       </aside>
       <main>
         <Hero info={hero} />
