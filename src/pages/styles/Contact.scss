@@ -29,13 +29,25 @@
   }
 
   .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 10px 20px;
     background-color: rgba(137, 67, 243, 0.201);
     transition: all 0.4s ease-in-out;
+
+    a {
+      padding-block: 5px;
+    }
     p {
       padding-block: 5px;
     }
     @media screen and (min-width: 641px) and (max-width: 910px) {
+      a {
+        font-size: 12px;
+      }
+
       p {
         font-size: 12px;
       }
@@ -44,6 +56,10 @@
       padding: 10px;
       width: 80%;
       margin: 0 auto;
+
+      a {
+        font-size: 12px;
+      }
 
       p {
         font-size: 12px;

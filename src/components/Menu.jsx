@@ -18,7 +18,7 @@ const Menu = () => {
         <button onClick={() => setShow("education")}>studies</button>
         <button onClick={() => setShow("experience")}>experience</button>
         <button onClick={() => setShow("languages")}>languages</button>
-        <button onClick={() => setShow("habilities")}>habilities</button>
+        <button onClick={() => setShow("habilities")}>skills</button>
       </div>
       <div>
         {show === "about" && <About metadata={hero.aboutMe} />}

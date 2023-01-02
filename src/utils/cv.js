@@ -3,7 +3,7 @@ export const CV = {
     name: "Mario",
     lastName: "Sepúlveda",
     fullName: "MARIO SEPÚLVEDA",
-    city: "Ripollet, Barcelona",
+    city: "Barcelona, Spain",
     email: "mariosepul3@gmail.com",
     birthDate: "19/03/1995",
     phone: "(+34) 663 537 985",

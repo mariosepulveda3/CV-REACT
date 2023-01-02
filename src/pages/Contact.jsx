@@ -8,9 +8,12 @@ const Contact = ({ info }) => {
       <button onClick={() => setShowContact(!showContact)}>Contact</button>
       {showContact ? (
         <div className="container">
-          {/* <a href="mailto:mariosepulveda@correo.com?Subject=Aquí%20el%20asunto%20del%20mail">{info.email}</a> */}
-          <p>{info.email}</p>
-          <p>{info.phone}</p>
+          <a href="mailto:mariosepul3@gmail.com?Subject=Enhorabuena!%20Queremos%20contrarte">
+            {info.email}
+          </a>
+          <p>{info.fullName}</p>
+          <p>{info.city}</p>
+          <p>{info.birthDate}</p>
         </div>
       ) : (
         <div></div>

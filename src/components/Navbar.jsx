@@ -1,11 +1,11 @@
 import React from "react";
 import "./styles/Navbar.scss";
 
-const Navbar = () => {
+const Navbar = ({info}) => {
   return (
     <div className="navbar">
       <div>
-        <a href="https://github.com/mariosepulveda3" target="blank">
+        <a href="{info.gitHub}" target="blank">
           My GitHub
         </a>
       </div>
@@ -17,6 +17,9 @@ const Navbar = () => {
       </a>
       <a href="https://vercel.com/mariosepulveda3" target="blank">
         Projects
+      </a>
+      <a href="https://portfolio-mario-sepulveda.vercel.app" target="blank">
+        Portfolio
       </a>
     </div>
   );
