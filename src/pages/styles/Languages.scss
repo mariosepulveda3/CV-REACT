@@ -6,19 +6,13 @@
     padding-bottom: 20px;
   }
 
-  .container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
   .div {
-    width: 240px;
     padding: 20px;
     margin-inline: 5px;
+    margin-block: 10px;
     background-color: rgba(137, 67, 243, 0.201);
 
-    h4 {
+    h3 {
       padding-bottom: 5px;
     }
 
