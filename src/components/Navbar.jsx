@@ -18,7 +18,7 @@ const Navbar = ({info}) => {
       <a href="https://vercel.com/mariosepulveda3" target="blank">
         Projects
       </a>
-      <a href="https://portfolio-mario-sepulveda.vercel.app" target="blank">
+      <a href="https://portfolio-mario-sepulveda-9eeirle09-mariosepulveda3.vercel.app/" target="blank">
         Portfolio
       </a>
     </div>
